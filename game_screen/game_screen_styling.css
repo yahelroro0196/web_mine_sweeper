@@ -1,0 +1,25 @@
+* {
+    text-align: center;
+}
+
+#minesweeperGrid div {
+    line-height: 1px;
+}
+
+#minesweeperGrid span {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    border: 1px solid black;
+}
+
+#minesweeperGrid {
+    color: aqua;
+}
+
+.buildGridButton {
+    display: flex;
+    flex-direction: column;
+    outline-color: aquamarine;
+    outline-style: groove;
+}
